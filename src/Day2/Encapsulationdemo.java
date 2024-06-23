@@ -9,6 +9,7 @@ public class Encapsulationdemo {
        System.out.println( ob.getSerialnumber());
        System.out.println(ob.getAge());
         System.out.println(ob.getName());
+       
     }
 
    
