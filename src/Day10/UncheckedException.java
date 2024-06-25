@@ -1,5 +1,5 @@
 //Program to demonstrate unchecked exception
-package Day10;
+package com.tnsif.dayeleven;
 
 //Unchecked Exceptions are Runtime Exception
 public class UncheckedException {

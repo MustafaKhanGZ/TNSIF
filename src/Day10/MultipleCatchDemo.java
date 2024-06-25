@@ -1,5 +1,5 @@
 //Program to demonstrate Multiple catch block
-package Day10;
+package com.tnsif.dayeleven.multiplecatch;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -18,7 +18,7 @@ public class MultipleCatchDemo {
 				System.out.println("Division is " + numberThree);
 				break;
 			} catch (InputMismatchException e) {
-				 e.printStackTrace();
+				// e.printStackTrace();
 				System.out.println("Invalid input. Please enter integers only.");
 				sc.nextLine();
 			} catch (ArithmeticException e) {

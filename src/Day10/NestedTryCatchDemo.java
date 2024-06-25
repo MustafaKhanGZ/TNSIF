@@ -1,5 +1,6 @@
 //Program to demonstrate nested try catch - Driver Class
-package Day10;
+package com.tnsif.dayeleven.nestedtrycatch;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
