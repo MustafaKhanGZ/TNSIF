@@ -14,7 +14,7 @@ public class exceptionsdemo {
 		
 	}catch(Exception e) {
 		System.out.println("Exception---->"+e); //detailed message
-	}finally {
+	}finally {//this will always execute
 		System.out.println("Hello World");
 	}
 	
