@@ -57,7 +57,7 @@ public class Employee extends Person{
 
 
 	@Override
-	public String toString() {
+	public String toString() {//overriding def toString()
 		return "Employee [empId=" + empId + ", salary=" + salary + ", dept=" + dept + ", getName()=" + getName()
 				+ ", getCity()=" + getCity() + "]";
 	}
