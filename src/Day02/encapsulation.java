@@ -1,5 +1,7 @@
 package Day02;
-
+/*
+ binding of data members and member functions is encapsulation
+ */
 
     public class encapsulation {
         private int serialnumber;
