@@ -1,5 +1,5 @@
 //Program to demonstrate Marker Interface
-package Day7.MarkerInterface;
+package Day07.MarkerInterface;
 
 public interface Registrable {
 

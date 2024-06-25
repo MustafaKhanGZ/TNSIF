@@ -1,5 +1,5 @@
 //Program to demonstrate Command Line Arguments 
-package Day9;
+package Day09;
 
 import java.util.Scanner;
 

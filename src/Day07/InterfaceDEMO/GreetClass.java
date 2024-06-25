@@ -1,5 +1,5 @@
 //Program to demonstrate FunctionalInterface - Child Class
-package Day7.InterfaceDEMO;
+package Day07.InterfaceDEMO;
 
 public class GreetClass implements GreetInterface {
 

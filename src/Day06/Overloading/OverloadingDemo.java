@@ -1,5 +1,5 @@
 //Program to demonstrate Overloading - Compile Time Polymorphism
-package Day6.Overloading;
+package Day06.Overloading;
 
 public class OverloadingDemo {
 

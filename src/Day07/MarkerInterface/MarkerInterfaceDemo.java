@@ -1,5 +1,5 @@
 // Usage of the marker interface
-package Day7.MarkerInterface;
+package Day07.MarkerInterface;
 
 public class MarkerInterfaceDemo {
 

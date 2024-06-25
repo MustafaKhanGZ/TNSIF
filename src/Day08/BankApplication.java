@@ -1,5 +1,5 @@
 //Main class for Bank application
-package Day8;
+package Day08;
 
 public class BankApplication {
  public static void main(String[] args) {

@@ -1,5 +1,5 @@
 //Program to demonstrate method overriding - Runtime Polymorphism
-package Day6.Overriding;
+package Day06.Overriding;
 
 //Superclass
 public class RBI {

@@ -1,5 +1,5 @@
 //BankImpl class implementing the Bank interface
-package Day8;
+package Day08;
 
 public class BankImpl implements Bank {
  @Override

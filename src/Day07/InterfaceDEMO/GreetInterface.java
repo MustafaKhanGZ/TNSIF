@@ -1,5 +1,5 @@
 //Program to demonstrate FunctionalInterface - Greet Interface
-package Day7.InterfaceDEMO;
+package Day07.InterfaceDEMO;
 
 @FunctionalInterface
 public interface GreetInterface {

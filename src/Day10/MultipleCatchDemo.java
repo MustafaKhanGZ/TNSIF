@@ -1,5 +1,5 @@
 //Program to demonstrate Multiple catch block
-package com.tnsif.dayeleven.multiplecatch;
+package Day10;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

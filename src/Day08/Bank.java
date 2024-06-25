@@ -1,5 +1,5 @@
 //Bank interface
-package Day8;
+package Day08;
 
 public interface Bank {
  double MIN_BALANCE = 1000;

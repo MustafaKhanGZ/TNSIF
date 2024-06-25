@@ -1,5 +1,5 @@
 //Program to demonstrate WrapperClasses
-package Day9;
+package Day09;
 
 public class WrapperClassDemo {
 	public static void main(String[] args) {

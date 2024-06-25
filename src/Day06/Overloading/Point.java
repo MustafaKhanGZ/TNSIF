@@ -1,5 +1,5 @@
 //Program to demonstrate constructor overloading - Compile Time Polymorphism
-package Day6.Overloading;
+package Day06.Overloading;
 
 
 public class Point {

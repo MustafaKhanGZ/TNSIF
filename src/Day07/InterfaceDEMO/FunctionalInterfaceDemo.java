@@ -1,5 +1,5 @@
 //Program to demonstrate FunctionalInterface
-package Day7.InterfaceDEMO;
+package Day07.InterfaceDEMO;
 
 public class FunctionalInterfaceDemo {
 
