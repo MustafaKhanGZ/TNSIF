@@ -14,7 +14,7 @@ public class AbstractDemo {
 		
 		System.out.println("------------------------------------------------");
 		//Runtime Polymorphism / Dynamic binding / late binding
-		//Ex: Method Overriding
+		//Ex is Method Overriding
 		
 		Shape shape;
 		shape=new Square(12.5f);
