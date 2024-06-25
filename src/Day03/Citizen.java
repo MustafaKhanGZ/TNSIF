@@ -54,7 +54,7 @@ public class Citizen {
 	}
 
 	
-	public String toString() {
+	public String toString() {//overriding the default toString()
 		return "Citizen [name=" + name + ", aadharNo=" + aadharNo + ", address=" + address + ", phno=" + phno + "]";
 	}
 	public static void main(String[] args) {
