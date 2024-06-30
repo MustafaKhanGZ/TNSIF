@@ -1,0 +1,137 @@
+1) what is a thread?
+=====================
+* A thread in Java simply represents a single independent path of execution of a group of statements.
+
+2) What is multithreading?
+===========================
+* The process of executing multiple threads simultaneously (concurrently) is called multithreading in Java.
+
+3) Diff btw process and thread?
+===============================
+Process
+-------
+* Each process can have more than one thread
+* Every individual process has its own separate memory address space and can execute a different program.
+* It takes more time for context switching.
+
+Thread
+-------
+* creating a thread takes fewer resources
+* It takes less time for context switching.
+* All thread have same memory allocation
+
+
+4) What is mean by throw and throws?
+=====================================
+* Throw and Throws is a keyword used to declare the custom exception in java.
+* Throw is a keyword, we can through any exception inside the method.
+* Throws is a keyword, it is used to declare the exception(in method level).
+
+5) Runnable thread?
+====================
+java.lang.Runnable is an interface that is to be implemented by a class whose instances are intended to be executed by a thread.
+
+6)what is Synchronization and its use?
+=======================================
+* Synchronization is used for thread safe
+* It allows only one thread at a time
+
+7) Default thread in program / java?
+======================================
+* Every Java program has always at least one thread, even if you do not create any thread. This thread is called main thread
+* The main thread is also called parent thread and the rest of threads that are generated from it are called child threads of the program.
+
+8) what is Process in java?
+============================
+* A process is a program that executes as a single thread.
+
+9) What is know as context switch?
+===================================
+* The switching between two threads is known as context switch.
+
+10) What is thread class?
+==========================
+* The switching between two threads is known as context switch.
+* It is a predefined class declared in java.lang default package.
+
+11) How to create threads?
+===========================
+* There are two ways to create a new thread in Java:
+
+* One is by extending java.lang.Thread class:
+      Syntax: Class Myclass extends Thread
+
+* Another is by implementing java.lang.Runnable interface:
+	-> Create a class that implements the 	runnable interface. 
+ 	-> Class to implement only the run method 	that constitutes the new thread.
+
+12) Diff btw extending Thread and Implementing Runnable?
+===============================================
+Extending Thread
+-----------------
+Creating Worked thread.
+Cannot extend any other class.
+Thread's life cycle methods like interrupt() can be overridden.
+
+Implementing Runnable
+----------------------
+Defining task.
+Can extend any other class
+Only run() method can be overridden.
+
+
+13) Thread Life cycle
+=======================
+New (Newborn State)
+Runnable state
+Running state
+Blocked state
+Dead State
+
+14) Thread Methods
+===================
+* start(): Initiates the execution of the thread.
+* sleep(): Causes the thread to sleep for a specified amount of time.
+* join(): Waits for the thread to die.
+* wait(): Causes the current thread to wait until another thread invokes the notify() method.
+* notify(): Wakes up a single thread that is waiting on the object.
+* notifyAll(): Wakes up all threads that are waiting on the object.
+
+
+15) what is the Default Exception occurs while using join() and sleep() methods?
+=====================================================
+* InterruptedException : It is thrown when the waiting or sleeping state is disrupted by another thread. 
+* IllegalStateException : It is thrown when a thread is tried to start that is already started
+
+
+16) what are 3 scheduling threads available?
+=============================================
+ MIN_PRIORITY =1
+ NORM_PRIORITY=5
+ MAX_PRIORITY= 10 
+
+
+17) What is setPriority() & getPriority()?
+===========================================
+getPriority()
+----------------
+Thread class provides a method named getPriority() that is used to determine the priority of a thread. 
+It returns the priority of a thread through which it is called.
+
+setPriority()
+---------------
+The setPriority() of Thread class is used to set the priority of a thread. 
+This method accepts an integer value as an argument and sets that value as priority of a thread through which it is called.
+
+
+18) Types of Synchronization?
+=============================
+* Process Synchronization
+* Thread Synchronization
+
+
+19) What is the difference between runnable, running thread and block thread in Java?
+========================================================================
+* A RUNNABLE thread is one that is ready to run but may or may not be actually running, depending on the availability of CPU resources.
+* A RUNNING thread is one that is currently executing its code. 
+* A BLOCKED thread is one that is waiting to acquire a lock or a monitor to enter a synchronized block or method.
