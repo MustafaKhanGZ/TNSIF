@@ -1,5 +1,5 @@
 //Program to demonstrate Lambda Expression
-package com.tnsif.daynineteen;
+package Day18;
 
 
 public class WithoutLambdaExpr { 

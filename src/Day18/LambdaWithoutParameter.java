@@ -1,6 +1,5 @@
 //Program to demonstrate Lambda expression without parameters
-package com.tnsif.daynineteen;
-
+package Day18;
 public class LambdaWithoutParameter {
 
 	public static void main(String[] args) {
