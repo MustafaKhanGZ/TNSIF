@@ -1,5 +1,5 @@
 //Program to demonstrate lower bound wild card class
-package com.tnsif.dayfifteen.generics;
+package Day17;
 
 import java.util.List;
 

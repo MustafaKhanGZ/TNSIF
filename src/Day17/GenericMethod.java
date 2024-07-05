@@ -1,5 +1,5 @@
 //Program to demonstrate generic method
-package com.tnsif.dayfifteen.generics;
+package Day17;
 
 public class GenericMethod {
 	//Generic Method
