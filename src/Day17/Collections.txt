@@ -1,0 +1,25 @@
+Collections
+------------
+1.Difference between collection and collections
+2.Explain about collection framework
+3.Why we need to go for collection when we already have array concept.
+4.List the Difference between List,Set and Map
+5.Difference between ArrayList and Array
+6.Difference between Array and Vector
+7.What are the methods that are available in List that are not available in Set.
+8.Difference between ArrayList and Vector
+9.How to convert array into list
+10.Difference between for and foreach Loop
+11.Type of List,Type of Set(Order of Execution),Type of Map(Order of Execution and null value acceptance)
+12.Difference between retainAll() and removeAll()
+13.Difference between add(index,element) and set(index,element)
+14.How to iterate a Map
+15.Return Type of entrySet(),keySet(),value(),getKey().getValue()
+16.Difference between KeySet() and entrySet()
+17.What is generics
+18.What is Downcasting and upcasting
+19.Explain List li=new ArrayList();
+20.What is wraper class?
+21.What is Queue and DeQueue?
+22.Difference between ArrayQueue and PriorityQueue?
+23.Name the methods in Map , Set and List?
