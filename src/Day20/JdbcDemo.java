@@ -19,10 +19,10 @@ public class JdbcDemo {
 
 	public static void main(String[] args) throws Exception{
 		
-		String url="jdbc:mysql://localhost:3306/college_db";
+		String url="jdbc:mysql://localhost:3306/test";
 		String username="root";
-		String password="12345";
-		String query="select * from college_table";
+		String password="mustafakhan786";
+		String query="select * from emp";
 		
 		Class.forName("com.mysql.cj.jdbc.Driver"); //2nd completed 
 		Connection con = DriverManager.getConnection(url,username,password); //3rd completed
